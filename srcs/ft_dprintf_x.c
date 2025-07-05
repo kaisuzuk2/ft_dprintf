@@ -6,13 +6,13 @@
 /*   By: kaisuzuk <kaisuzuk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 14:57:42 by kaisuzuk          #+#    #+#             */
-/*   Updated: 2025/07/05 19:35:42 by kaisuzuk         ###   ########.fr       */
+/*   Updated: 2025/07/05 20:18:03 by kaisuzuk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_printf_x(int fd, unsigned int un, unsigned int capital)
+int	ft_dprintf_x(int fd, unsigned int un, unsigned int capital)
 {
 	char	buf[9];
 	size_t	i;

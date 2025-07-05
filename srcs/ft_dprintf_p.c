@@ -6,7 +6,7 @@
 /*   By: kaisuzuk <kaisuzuk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/29 23:46:24 by kaisuzuk          #+#    #+#             */
-/*   Updated: 2025/07/05 19:34:54 by kaisuzuk         ###   ########.fr       */
+/*   Updated: 2025/07/05 20:17:55 by kaisuzuk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ static int	ft_printaddr(int fd, uintptr_t np)
 	return (count);
 }
 
-int	ft_printf_p(int fd, void *p)
+int	ft_dprintf_p(int fd, void *p)
 {
 	int	res;
 

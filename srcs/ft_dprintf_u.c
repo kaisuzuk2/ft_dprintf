@@ -6,13 +6,13 @@
 /*   By: kaisuzuk <kaisuzuk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 13:10:01 by kaisuzuk          #+#    #+#             */
-/*   Updated: 2025/07/05 19:35:12 by kaisuzuk         ###   ########.fr       */
+/*   Updated: 2025/07/05 20:17:59 by kaisuzuk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_printf_u(int fd, unsigned int un)
+int	ft_dprintf_u(int fd, unsigned int un)
 {
 	char	buf[11];
 	int		i;
