@@ -6,7 +6,7 @@
 #    By: kaisuzuk <kaisuzuk@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/25 09:40:16 by kaisuzuk          #+#    #+#              #
-#    Updated: 2025/05/08 11:09:21 by kaisuzuk         ###   ########.fr        #
+#    Updated: 2025/07/06 14:43:03 by kaisuzuk         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -52,7 +52,8 @@ SRCS =	ft_strlen.c \
 				ft_putnbr.c \
 				ft_putstr.c \
 				ft_putchar.c \
-				ft_utoa.c
+				ft_utoa.c \
+				ft_strcmp.c
 B_SRCS=	ft_lstnew.c \
 	 ft_lstadd_front.c \
 	 ft_lstsize.c \
