@@ -6,7 +6,7 @@
 /*   By: kaisuzuk <kaisuzuk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/25 09:32:53 by kaisuzuk          #+#    #+#             */
-/*   Updated: 2025/07/06 14:42:54 by kaisuzuk         ###   ########.fr       */
+/*   Updated: 2025/07/09 15:54:36 by kaisuzuk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,6 +76,6 @@ int					ft_convert_to_decimal(char *format, int base);
 int					ft_putstr(const char *str);
 int					ft_putchar(char c);
 char				*ft_utoa(unsigned int un);
-int					strcmp(const char *s1, const char *s2);
+int					ft_strcmp(const char *s1, const char *s2);
 
 #endif
