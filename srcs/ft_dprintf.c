@@ -6,7 +6,7 @@
 /*   By: kaisuzuk <kaisuzuk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/28 23:10:15 by kaisuzuk          #+#    #+#             */
-/*   Updated: 2025/07/05 19:33:22 by kaisuzuk         ###   ########.fr       */
+/*   Updated: 2025/07/15 23:27:41 by kaisuzuk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ static int	ft_vdprintf(int fd, const char *format, va_list ap)
 	{
 		if (*format != '%')
 		{
-			if (ft_putchar_fd(fd, *format) == -1)
+			if (ft_putchar_fd(*format, fd) == -1)
 				return (-1);
 			res++;
 			format++;
