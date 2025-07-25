@@ -6,7 +6,7 @@
 /*   By: kaisuzuk <kaisuzuk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/28 23:10:15 by kaisuzuk          #+#    #+#             */
-/*   Updated: 2025/07/15 23:27:41 by kaisuzuk         ###   ########.fr       */
+/*   Updated: 2025/07/25 18:38:25 by kaisuzuk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ static int	ft_dprintf_format(int fd, va_list args, const char *fmt)
 	else if (*fmt == 'p')
 		return (ft_dprintf_p(fd, va_arg(args, void *)));
 	else if (*fmt == 'd' || *fmt == 'i')
-		return (ft_putnbr_fd(fd, va_arg(args, int)));
+		return (ft_putnbr_fd(va_arg(args, int), fd));
 	else if (*fmt == 'u')
 		return (ft_dprintf_u(fd, va_arg(args, unsigned int)));
 	else if (*fmt == 'x')
