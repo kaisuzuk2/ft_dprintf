@@ -6,7 +6,7 @@
 /*   By: kaisuzuk <kaisuzuk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/25 09:32:53 by kaisuzuk          #+#    #+#             */
-/*   Updated: 2025/07/09 15:54:36 by kaisuzuk         ###   ########.fr       */
+/*   Updated: 2025/07/28 22:55:02 by kaisuzuk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,5 +77,5 @@ int					ft_putstr(const char *str);
 int					ft_putchar(char c);
 char				*ft_utoa(unsigned int un);
 int					ft_strcmp(const char *s1, const char *s2);
-
+int					ft_isspace(int c);
 #endif
